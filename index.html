@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 pt-md-0 section-title fs-1">Wellness Center</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-clinica" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a clínica
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#ideais" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Nossos ideais
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-clinica">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100" src="assets/images/slide1.jpg" alt="Mulher com calça larga na cintura">
+                        <div class="carousel-caption text-start">
+                            <h2>Enzimas para emagrecimento</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="assets/images/slide2.png" alt="Rosto de uma mulher com aparelho de lifting ao lado">
+                        <div class="carousel-caption text-start">
+                            <h2>Lifting facial</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="assets/images/slide3.png" alt="Mulher negra debruçada">
+                        <div class="carousel-caption text-start">
+                            <h2>Depilação a laser para pele negra</h2>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 m-auto">
+                            <img src="assets/images/clinica.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno da clínica">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title fw-bold">Sobre <span class="text-colored">a clínica</span></h2>
+                            <p>
+                                A Welness Center foi fundada a partir do desejo de proporcionar a melhor experiência e os melhores resultados em tratamentos estéticos. Buscando sempre o que há de mais avançado no mercado, aqui você  terá uma experiência única.
+                            </p>
+                            <h3 class="section-title fw-bold">Nosso <span class="text-colored">espaço</span></h3>
+                            <p>
+                                Nosso espaço foi cuidadosamente pensado para trazer um ambiente agradável e acolhedor, fazendo com que você se sinta confortável e relaxe, enquanto nossa equipe cuida de você. A nossa clínica conta com:
+                            </p>
+                            <ul>
+                                <li>Profisionais altamente qualificados</li>
+                                <li>Equipamentos de última geração</li>
+                                <li>Biossegurança</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ideais" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fw-bold">Nossos <span class="text-colored">ideais</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="assets/images/missao.png" alt="" class="d-block mx-auto w-50 mb-3">
+                        <h3 class="section-title text-colored fs-4 fw-bold">
+                            <i class="bi bi-rocket-takeoff-fill"></i>
+                            Missão
+                        </h3>
+                        <p>
+                            Auxiliar na promoção da saúde, beleza e bem-estar dos nossos clientes, de maneira diferenciada e personalizada, com excelência, dedicação e seriedade, promovendo assim, qualidade de vida e favorecendo o resgate da autoestima.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/images/visao.png" alt="" class="d-block mx-auto w-50 mb-3">
+                        <h3 class="section-title text-colored fs-4 fw-bold">
+                            <i class="bi bi-lightbulb-fill"></i>
+                            Visão
+                        </h3>
+                        <p>
+                            Tornar-se referência no mercado por meio da excelência e qualidade dos serviços prestados, buscando auxiliar no cuidado da beleza, saúde e bem-estar, sempre inovando e atualizando constantemente nos tratamentos, e investimentos estruturares.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/images/valores.png" alt="" class="d-block mx-auto w-50 mb-3">
+                        <h3 class="section-title text-colored fs-4 fw-bold">
+                            <i class="bi bi-star-fill"></i>
+                            Valores
+                        </h3>
+                        <ul>
+                            <li>Compromisso com o cliente</li>
+                            <li>Valorizar todos os nossos clientes</li>
+                            <li>Humanização do tratamento</li>
+                            <li>Comprometimento profissional</li>
+                            <li>Ética profissional</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 fw-bold">
+                        Nossos <span class="text-colored">serviços</span>
+                    </h2>
+                </div>
+                <div class="row"> 
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-servicos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#estetica-facial" class="fw-bold text-start nav-link text-colored active">Estética facial</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#estetica-corporal" class="fw-bold text-start nav-link text-colored">Estética corporal</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#beleza" class="fw-bold text-start nav-link text-colored">Beleza</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bem-estar" class="fw-bold text-start nav-link text-colored">Bem-estar</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nutricionista" class="fw-bold text-start nav-link text-colored">Nutricionista</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="estetica-facial">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/harmonizacao.png" alt="Harmonização facial">
+                                        <h5 class="text-colored fw-bold mt-2">Harmonização facial</h5>
+                                        <p>
+                                            Procedimentos não invasivos para reduzir rugas, papada, olheira, suavizar traços do queixo e nariz.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/lifting.png" alt="Lifting facial">
+                                        <h5 class="text-colored fw-bold mt-2">Lifting facial</h5>
+                                        <p>
+                                            Procedimento para diminuir as rugas do rosto e do pescoço, reduzindo a flacidez da pele. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/microagulhamento.jpeg" alt="Microagulhamento">
+                                        <h5 class="text-colored fw-bold mt-2">Microagulhamento</h5>
+                                        <p>
+                                            Consiste na aplicação de um rolo com inúmeras microagulhas, estimulando a produção de colágeno.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/peeling.jpg" alt="Peeling químico">
+                                        <h5 class="text-colored fw-bold mt-2">Peeling químico</h5>
+                                        <p>
+                                            Aplicação de substâncias que atuam na renovação celular, clareando manchas e reduzindo linhas finas.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/preenchimento.jpg" alt="Preenchimento labial">
+                                        <h5 class="text-colored fw-bold mt-2">Preenchimento labial</h5>
+                                        <p>
+                                            Procedimento para dar mais volume aos lábios e embelezá-los aperfeiçoando o seu formato.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/botox.jpg" alt="Toxina botulínica">
+                                        <h5 class="text-colored fw-bold mt-2">Toxina botulínica</h5>
+                                        <p>
+                                            Promove o relaxamento da musculatura onde é injetada, atuando nas rugas que se formam com a sua contração.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="estetica-corporal">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/enzimas.jpg" alt="Aplicação de enzimas">
+                                        <h5 class="text-colored fw-bold mt-2">Aplicação de enzimas</h5>
+                                        <p>
+                                            Enzimas injetadas para eliminação da gordura e melhora do contorno e definição corporal.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/carboxiterapia.jpg" alt="Carboxiterapia">
+                                        <h5 class="text-colored fw-bold mt-2">Carboxiterapia</h5>
+                                        <p>
+                                            Aplicação de CO2 medicinal para tonificar a pele, promover a lipólise e a produção de colágeno.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/criolipolise.jpg" alt="Criolipólise">
+                                        <h5 class="text-colored fw-bold mt-2">Criolipólise</h5>
+                                        <p>
+                                            Procedimento não invasivo para reduzir a gordura localizada por meio do resfriamento controlado.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/eletrolifting.jpg" alt="Eletrolifting corporal">
+                                        <h5 class="text-colored fw-bold mt-2">Eletrolifting corporal</h5>
+                                        <p>
+                                            Tratamento para amenizar a aparência de estrias brancas através de corrente galvânica que estimula a circulação.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/lipocavitacao.jpg" alt="Lipocavitação">
+                                        <h5 class="text-colored fw-bold mt-2">Lipocavitação</h5>
+                                        <p>
+                                            Procedimento para eliminar gordura localizada através do aparelho de ultrassom que quebra a gordura acumulada.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/peim.jpg" alt="PEIM">
+                                        <h5 class="text-colored fw-bold mt-2">PEIM</h5>
+                                        <p>
+                                            Injeção de um medicamento líquido esclerosante, promovendo o fechamento dos vasinhos, eliminando-os.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/pumpup.jpg" alt="Pump up">
+                                        <h5 class="text-colored fw-bold mt-2">Pump up</h5>
+                                        <p>
+                                            Procedimento que utiliza ventosas com pressão pulsada para remodelar, tonificar e empinar os glúteos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="beleza">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/cilios.jpg" alt="Alongamento de cílios">
+                                        <h5 class="text-colored fw-bold mt-2">Alongamento de cílios</h5>
+                                        <p>
+                                            Procedimento que traz volume, realce e definição para o olhar, deixando mais chamativo e marcante.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/depilacao.png" alt="Depilação a laser">
+                                        <h5 class="text-colored fw-bold mt-2">Depilação a laser</h5>
+                                        <p>
+                                            Depilação definitiva através de disparos de feixes de luz de alta intensidade (também para pele negra).
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/sobrancelha.jpg" alt="Design de sobrancelh">
+                                        <h5 class="text-colored fw-bold mt-2">Design de sobrancelha</h5>
+                                        <p>
+                                            Design personalizado, levando em conta suas características faciais únicas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bem-estar">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/drenagem.jpg" alt="Drenagem linfática">
+                                        <h5 class="text-colored fw-bold mt-2">Drenagem linfática</h5>
+                                        <p>
+                                            Favorece a eliminação de toxinas e metabólitos, melhora a absorção intestinal, dentre outras funções.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/pedras.jpg" alt="Massagem com pedras quentes">
+                                        <h5 class="text-colored fw-bold mt-2">Massagem com pedras quentes</h5>
+                                        <p>
+                                            É uma integração entre a massoterapia e a termoterapia.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/massagem.jpg" alt="Massagem relaxante">
+                                        <h5 class="text-colored fw-bold mt-2">Massagem relaxante</h5>
+                                        <p>
+                                            Massagem perfeita para relaxar a musculatura, aliviando a dor, stress e trazer bem-estar.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/shiatsu.jpg" alt="Shiatsu">
+                                        <h5 class="text-colored fw-bold mt-2">Shiatsu</h5>
+                                        <p>
+                                            Técnica japonesa baseada no “Ki”, a energia vital do ser humano, em que o fluxo de energia é liberado.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/spa.jpg" alt="Spa dos pés">
+                                        <h5 class="text-colored fw-bold mt-2">Spa dos pés</h5>
+                                        <p>
+                                            Tratamento de esfoliação e hidratação específico para os pés. É um momento de cuidado e relaxamento.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="nutricionista">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="assets/images/nutricionista.jpg" alt="Frutas e estetoscópio">
+                                        <h5 class="text-colored fw-bold mt-2">Consulta com nutricionista</h5>
+                                        <p>
+                                            Consulta com profissional qualificado para elaboração de plano alimentar.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pb-4 fw-bold">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" name="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" name="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored fw-bold">
+                                <i class="bi bi-cursor-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored fw-bold">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Front-end nº 404, Bairro Bootstrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
