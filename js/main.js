@@ -14,6 +14,8 @@ $(document).ready(function(){
     $('#telefone').mask('(00) 0000-0000 0', options)
 
 
+//Validando o formulário
+
     $('form').validate({
         rules:{
             nome:{
